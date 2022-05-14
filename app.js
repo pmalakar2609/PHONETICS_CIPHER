@@ -2,6 +2,9 @@ var input = document.getElementById("input");
 var EncryptValue = document.getElementById("EncryptValue");
 var sy = document.getElementById("sy");
 var Decrypt = [];
+var ClearButton = document.getElementById("ClearButton").addEventListener("click",()=>{
+    location.reload();
+})
 EncryptValue.addEventListener("click", () => {
     sy.style.display = "block";
     var asciiarry = [];
